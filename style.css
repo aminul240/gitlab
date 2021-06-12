@@ -1,0 +1,483 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*====================header menu======================>*/
+
+.logo {
+  width: 150px;
+  float: left;
+  margin-left: 10px;
+}
+.menuBar {
+  width: 1523px;
+  float: left;
+}
+.navbar-nav li {
+  display: inline-block;
+  padding: 24px 35px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+.nav-item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  font-family: arial;
+  transition: 0.4s;
+  
+}
+.menuBar ul li a:hover{
+ color: red;
+}
+.social-icon {
+  width: 215px;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+}
+.social-icon ul li {
+  display: inline-block;
+  padding: 21px;
+}
+.social-icon ul li a {
+    color: rgb(83, 77, 77);
+    transition: 0.3s;
+}
+.social-icon ul li a:hover{
+    color: red;
+}
+.w-100 {
+  overflow: hidden;
+  background: #ddd;
+}
+/*=========X===============X===============X==============>*/
+
+/*=====================slide menu======================>*/
+.sliderMain{
+    background: url(img/pexels-craig-adderley-1652301.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+
+.container{
+    width: 1192px;
+    margin: auto;
+}
+
+.container h1 {
+  padding-top: 200px;
+  font-size: 50px;
+  text-transform: capitalize;
+  line-height: 72px;
+  color: white;
+  padding-bottom: 40px;
+}
+.container p {
+  width: 669px;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: inherit;
+  color: #fff;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+button btn4 {
+  background: #e74c3c;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: -11px;
+}
+button:hover{
+    background: #c0392b;
+}
+
+.container2{
+    width: 690px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.btn1 {
+  background: #ff4040;
+  border: none;
+  padding: 13px 35px;
+  border-radius: 5px;
+  margin-top: 150px;
+  margin-bottom: 130px;
+}
+.container2 h2{
+ text-align: center;
+ line-height: 60px;
+ font-size: 30px;
+}
+
+.container2 p {
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 50px;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 27px;
+}
+/*=============X==========X============X==========>*/
+
+/* ========================card design=======================>*/
+
+.cnt3{
+    overflow: hidden;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card{
+    width: 322px;
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+   /* padding: 0 40px; */
+   
+}
+.img-w{
+  background-repeat: no-repeat ;
+}
+
+.containerr {
+  padding: 2px 16px;
+
+}
+.container3 .card:first-child{
+    margin-left: 14px;
+}
+.containerr h4 {
+    line-height: 50px;
+    text-align: center;
+}
+.containerr p{
+    text-align: center;
+}
+.cnt3{
+    width: 1077px;
+    margin: auto;
+    margin-bottom: 38px;
+    margin-top: 71px;
+    overflow: hidden;
+    height: 338px;
+
+}
+  /*=================X==============X=============X========>*/
+
+/*========================container4 er kaj suru=======================*/
+
+.cnt4{
+overflow: hidden;
+}
+
+.container4{
+width: 100%;
+
+}
+.firstdiv{
+width: 50%;
+float: left;
+background: url(img/6.jpg);
+
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.firstdiv h2{
+color: white;
+font-size: 31px;
+text-align: center;
+margin-top: 100px;
+line-height: 85px;
+}
+
+.firstdiv p{
+color: white;
+font-size: 18px;
+text-align: center;
+margin-bottom: 92px;
+margin-top: 26px;
+color: cyan;
+}
+
+.secenddiv{
+width: 50%;
+float: left;
+background: rgb(32, 31, 31);
+}
+.secenddiv h2{
+color: white;
+
+font-size: 42px;
+text-align: center;
+margin-top: 100px;
+}
+
+.secenddiv p{
+color: white;
+font-size: 16px;
+text-align: center;
+margin-top: 41px;
+margin-bottom: 50px;
+}
+
+
+.btn4 {
+  background: #a300ff;
+  border: none;
+  color: withe;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 38px;
+  margin-left: 400px;
+}
+
+/*=======================*/
+
+.cnt5{
+  overflow: hidden;
+}
+.container-left {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* max-width: 300px; */
+  margin: auto;
+  text-align: center;
+  float: left;
+  width: 25%;
+
+  margin-left: 40px;
+  margin-top: 43px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+. btn5{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #fffbfb;
+}
+
+.btn5:hover, a:hover {
+  opacity: 0.7;
+}
+
+.conntainerr{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+  text-align: center;
+  width: 1000px;
+}
+
+.container-right{
+  width: 75%;
+  float: left;
+  border: 1px solid black;
+}
+
+/*=========================================*/
+
+
+.mcnt {
+  margin-top: 65px;
+  overflow: hidden;
+  width: 1192px;
+  margin-left: 345px;
+}
+.mcnt h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.mcnt p {
+  text-align: center;
+  line-height: 38px;
+}
+
+
+/*=========================*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-cnt {
+  padding: 0 16px;
+}
+
+.container-cnt::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button-btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.button-btn:hover {
+  background-color: rgb(255, 46, 46);
+}
+
+/*====================================================*/
+
+m-ctn-2{
+  overflow: hidden;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.m-container-2{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+
+  margin-top: 80px;
+}
+
+
+/* =========video section================*/
+
+
+.footer-m {
+  overflow: hidden;
+  background: black;
+  margin-top: 35px;
+}
+.footer-container {
+  color: white;
+  width: 1200px;
+  margin: auto;
+}
+.footer-services {
+  width: 150px;
+  float: left;
+  margin-bottom: 68px;
+}
+.footer-services h3 {
+  font-size: 22px;
+  margin-top: 80px;
+  margin-bottom: 11px;
+}
+.footer-services span {
+  font-size: 15px;
+  line-height: 40px;
+}
+.footer-about {
+  width: 160px;
+  float: left;
+  margin-left: 88px;
+}
+.footer-about h3 {
+  font-size: 22px;
+  margin-top: 80px;
+  margin-bottom: 16px;
+}
+.footer-about span {
+  font-size: 15px;
+  line-height: 32px;
+}
+.footer-company-Name {
+}
+.footer-company-Name {
+  width: 569px;
+  float: left;
+  margin-left: 218px;
+}
+.footer-company-Name h3 {
+  font-size: 22px;
+  margin-top: 80px;
+  margin-bottom: 21px;
+}
+.footer-company-Name p {
+  font-size: 15px;
+  line-height: 31px;
+}
+
+
+
+.footer-icon {
+  color: white;
+  overflow: hidden;
+  float: left;
+  margin-top: 33px;
+  margin-left: 351px;
+}
+.footer-icon ul {
+  display: inline-block;
+  margin-left: 6px;
+}
+.footer-icon ul li {
+  display: inline-block;
+}
+.footer-icon ul li {
+  padding: 17px;
+}
